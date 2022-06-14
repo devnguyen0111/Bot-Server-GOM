@@ -1,11 +1,7 @@
 const { readdirSync } = require('fs');
 const AsciiTable = require('ascii-table');
 const Discord = require('discord.js');
-const {join, resolve} = require('path');
-/**
-     * Loads all available commands
-     * @param {string} path
-     */
+
 module.exports = (client) => {
     client.types = {
         INFO: 'info',
