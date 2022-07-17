@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@keyv/sqlite": "^3.5.2",
+    "@keyv/mongo": "^2.1.6",
     "ascii-table": "^0.0.9",
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0",
